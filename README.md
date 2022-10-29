@@ -31,9 +31,9 @@ Kelas : TI.22.A1
 ![Screenshot (79)](https://user-images.githubusercontent.com/115678171/198815862-fbfc7ae9-dc11-4184-898a-4711596e2e7a.png)
 ![Screenshot (80)](https://user-images.githubusercontent.com/115678171/198815863-332a5b4f-c020-40b9-8331-4f98f5794ff9.png)
 
- 3. anda masukan code dari latihan1 anda lalu Run
- python
- # penggunaan end
+3. anda masukan code dari latihan1 anda lalu Run
+```python
+# penggunaan end
 print('A', end='')
 print('B', end='')
 print('C', end='')
@@ -75,7 +75,7 @@ print('{0:>3} {1:>16}'.format(7, 10**7))
 print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
 print('{0:>3} {1:>16}'.format(10, 10**10)
-`
+```
  
  ![Screenshot (63)](https://user-images.githubusercontent.com/115678171/198816032-fc8004ba-67c8-4506-954d-d7e77deac44d.png)
  ![Screenshot (64)](https://user-images.githubusercontent.com/115678171/198816037-2a855d15-28af-491f-91cd-fa16e1744518.png)
@@ -86,7 +86,7 @@ print('{0:>3} {1:>16}'.format(10, 10**10)
 
 # Latihan 2 
 1. Anda masukan code latihan 2 anda lalu Run 
-python
+```python
 a=input("masukkan nilai a:")
 b=input("masukkan nilai b:")
 print("variable a=",a)
@@ -98,14 +98,14 @@ a=int(a)
 b=int(b)
 print("hasil penjumlahan {1}+{0}=%s".format(a,b) %(a+b))
 print("hasil pembagian {1}/{0}=%s".format(a,b) %(a/b))
-`
+````
 ![Screenshot (68)](https://user-images.githubusercontent.com/115678171/198816300-3b5d72ee-26a4-4bf7-8fce-5710999bea71.png)
 *Hasil Run*
 ![Screenshot (69)](https://user-images.githubusercontent.com/115678171/198816307-c1739b5e-447c-44bd-a0a2-43b3ca770e17.png)
 
 # Latihan 3
 1. Anda masukan code seperti dibawah ini dan lalu Run
-python
+```python
 string = ""
 
 x = int(input("Masukkan angka :"))
@@ -153,7 +153,7 @@ while bar <= x:
 	string = string + "\n\n"
 	bar = bar + 1
 print (string)
-
+````
 ![Screenshot (71)](https://user-images.githubusercontent.com/115678171/198816679-fcdcebb6-58b9-4857-b171-2dd65952ed24.png)
 ![Screenshot (72)](https://user-images.githubusercontent.com/115678171/198816705-c1fbd2e3-b549-493f-8ea8-1d831895a782.png)
 
@@ -162,7 +162,7 @@ print (string)
 
 # Menghitung Luas Dan Keliling Lingkaran
 1. Masukan code di bawah ini lalu run
-python
+```python
 import math
 
 r = float(input("Masukan Jari-jari : "))
@@ -172,7 +172,7 @@ keliling = 2 * math.pi * r
 
 print("Luas Lingkaran \t\t= ", luas)
 print("Keliling Lingkaran\t= ", keliling)
-`
+````
 ![Screenshot (82)](https://user-images.githubusercontent.com/115678171/198817214-75aca326-f313-47fe-a27c-a7fe79f08332.png)
 
 *Hasil Run*
